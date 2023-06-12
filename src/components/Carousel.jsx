@@ -2,21 +2,13 @@ import React, { useState, useEffect, useRef } from "react";
 import { CarouselData } from "../data/CarouselData";
 import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
 import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
+import smilePicture from '../assets/images/Smile.jpg';
 import '../carousel.css';
 
 function Carousel() {
     const [currImg, setCurrImg] = useState(0);
     const [pause, setPause] = useState(false);
     const scrollRef = useRef();
-
-    // useEffect(() => {
-    //     const timer = setInterval(() => {
-    //         setCurrImg((prevImg) =>
-    //             prevImg === CarouselData.length - 1 ? 0 : prevImg + 1
-    //         );
-    //     }, 3000);
-    //     return () => clearInterval(timer);
-    // }, []);
 
     useEffect(() => {
         let timer;
@@ -50,9 +42,6 @@ function Carousel() {
             onMouseEnter={() => setPause(true)}
             onMouseLeave={() => setPause(false)}
         >
-            {/* <div
-                className="carouselInner"
-            > */}
             <div
                 className="carouselInner"
                 ref={scrollRef} // Use the ref here
@@ -65,7 +54,7 @@ function Carousel() {
                 >
                     <ArrowBackIosIcon style={{ fontSize: 30 }} />
                 </div>
-                <div className="center">
+                <div className="center" style={{ backgroundImage: `url(${smilePicture})` }}>
                     <h1>{CarouselData[currImg].name}</h1>
                     <p>{CarouselData[currImg].published}</p>
                     <p>{CarouselData[currImg].content}</p>

@@ -14,7 +14,7 @@
 .carouselInner .right {
   flex: 5%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: #f5f5dc;
   display: grid;
   place-items: center;
   color: black;
@@ -32,6 +32,9 @@
   padding: 0 1rem;
   overflow: auto;
   word-wrap: break-word;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
 .carouselInner .center h1 {
@@ -39,9 +42,19 @@
   color: black;
 }
 
+.carouselInner .center::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
 .carouselInner .center p {
   font-size: 1rem;
-  color: #32cd32;
+  color: black;
 }
 
 @media (max-width: 768px) {
