@@ -1,0 +1,31 @@
+.card_main {
+  display: flex;
+  justify-content: flex-end;
+  margin: -40px 80px 40px 0px;
+  padding-top: 50vh;
+}
+
+.background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: -1;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-content {
+  margin-top: 130px;
+}
+
+.main-container {
+  text-align: center;
+  color: black;
+}
+
+@media (min-width: 1400px) {
+  .main-content {
+    margin-right: 100px;
+  }
+}

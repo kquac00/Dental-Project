@@ -1,0 +1,17 @@
+.container {
+  padding: 100px;
+  margin-top: 100px;
+}
+
+h2 {
+  color: #21db3d;
+}
+
+p {
+  color: #333;
+  line-height: 1.5;
+}
+
+strong {
+  font-weight: bold;
+}

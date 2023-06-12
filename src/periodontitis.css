@@ -1,0 +1,39 @@
+.periodontitis-page {
+  margin: 200px 50px 50px 50px;
+  background-color: #e5f6ff;
+}
+
+.periodontitis-heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.periodontitis-subheading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #333333;
+}
+
+.periodontitis-page p {
+  margin-bottom: 15px;
+  color: #666666;
+}
+
+.periodontitis-page ul {
+  margin-bottom: 15px;
+  color: #666666;
+}
+
+.periodontitis-page li {
+  margin-bottom: 5px;
+}
+
+.periodontitis-page strong {
+  font-weight: bold;
+}
+
+/* Add any additional styling as desired */

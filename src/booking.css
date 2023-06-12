@@ -1,0 +1,131 @@
+.appointment-page {
+  margin: 150px 40px 120px 40px;
+  max-width: max-content;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+@media (max-width: 859px) {
+  .appointment-page {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .appointment-page {
+    margin-top: 75px;
+  }
+}
+
+.apptBackground {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: auto;
+  z-index: -1;
+}
+
+.appointment-heading {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.appointment-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.first-group {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.second-group {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+.third-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0px;
+}
+
+.date-picker {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.custom-calendar {
+  width: 200px;
+  height: 217px;
+  position: relative;
+  z-index: 1;
+}
+
+select {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+  height: 150px;
+  width: 100%;
+  max-width: 300px;
+}
+
+button[type="submit"] {
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 200px;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}

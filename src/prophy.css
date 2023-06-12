@@ -1,0 +1,35 @@
+.dental-prophy-page {
+  margin: 200px 50px 50px 50px;
+  background-color: #f1ffed;
+}
+
+.dental-prophy-heading {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.dental-prophy-page p {
+  margin-bottom: 15px;
+  color: #666666;
+}
+
+.dental-prophy-page ul {
+  margin-bottom: 15px;
+  color: #666666;
+}
+
+.dental-prophy-page li {
+  margin-bottom: 5px;
+}
+
+.dental-prophy-page h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #333333;
+}
+
+/* Add any additional styling as desired */

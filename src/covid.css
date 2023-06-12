@@ -1,0 +1,26 @@
+.covid-container {
+  margin: 40px auto;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+}
+
+.covid-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.covid-content {
+  margin-bottom: 20px;
+}
+
+.covid-text {
+  margin-bottom: 10px;
+}
+
+.covid-list {
+  list-style-type: disc;
+  margin-left: 20px;
+}

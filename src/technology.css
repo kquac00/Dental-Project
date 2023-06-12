@@ -1,0 +1,27 @@
+.technology-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 150px;
+  text-align: center;
+}
+
+h1,
+h2,
+p,
+ul,
+li {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.Tech-ImageList {
+  margin-left: 150px;
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .Tech-ImageList {
+    margin-left: -20px;
+  }
+}

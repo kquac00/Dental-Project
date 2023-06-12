@@ -1,0 +1,42 @@
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  margin-top: 150px;
+}
+
+.page-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-section {
+  margin-bottom: 30px;
+  max-width: 800px;
+  text-align: justify;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.section-description {
+  margin-bottom: 15px;
+}
+
+.section-list {
+  margin-left: 20px;
+}
+
+.section-list li {
+  margin-bottom: 5px;
+}

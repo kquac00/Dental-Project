@@ -1,0 +1,15 @@
+.gallery-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 150px;
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+.image-grid {
+  display: flex;
+}

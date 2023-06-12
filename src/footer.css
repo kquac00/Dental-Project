@@ -1,0 +1,88 @@
+.Footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.FooterContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.FooterColumn {
+  flex-basis: 100%;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 768px) {
+  .FooterColumn {
+    flex-basis: 25%;
+  }
+}
+
+.FooterColumnTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: green;
+}
+
+.FooterList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.FooterListItem {
+  margin-bottom: 10px;
+  color: white;
+}
+
+.FooterListItem a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.FooterListItem a:hover {
+  text-decoration: underline;
+}
+
+.FooterListItem svg {
+  margin-right: 5px;
+}
+
+.FooterBottom {
+  background-color: #222;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.FooterText {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.FooterText a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.FooterText a:hover {
+  text-decoration: underline;
+}
+
+.OfficeHoursTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.OfficeHoursTable td {
+  padding: 8px;
+}
+
+.OfficeHoursTable tr:last-child td {
+  border-bottom: none;
+}

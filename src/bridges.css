@@ -1,0 +1,25 @@
+.bridges-main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 150px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  color: #666;
+  line-height: 1.5;
+}
+
+.reasons-list {
+  list-style-type: disc;
+  margin-left: 20px;
+}

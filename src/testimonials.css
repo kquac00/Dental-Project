@@ -1,0 +1,31 @@
+.testimonials {
+  max-width: 800px;
+  margin: 150px auto 0px auto;
+  padding: 20px;
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: #333;
+  text-align: center;
+}
+
+.testimonials h1 {
+  text-align: center;
+  color: #333;
+}
+
+.testimonials a {
+  color: #0077cc;
+}
+
+.testimonials a:hover {
+  color: #005999;
+}
+
+.testimonials ul {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+
+.display-carousel {
+  margin: 50px 0px;
+}
