@@ -13,9 +13,21 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 993px) and (min-width: 858px) {
   .appointment-page {
-    margin-top: 75px;
+    margin-top: 110px;
+  }
+}
+
+@media (max-width: 769px) and (min-width: 564px) {
+  .appointment-page {
+    margin-top: 80px;
+  }
+}
+
+@media (max-width: 406px) {
+  .appointment-page {
+    margin-top: 150px;
   }
 }
 
