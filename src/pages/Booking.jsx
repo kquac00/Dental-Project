@@ -64,7 +64,7 @@ const Booking = () => {
         if (!phone) {
             setPhoneError('Phone number is required');
             isValid = false;
-        } else if (!/^[\d\+\-\.\(\)\/\s]*$/.test(phone)) {  // Simple phone regex
+        } else if (!/^[\d+-.()/\s]*$/.test(phone)) {  // Simple phone regex
             setPhoneError('Phone number is not valid');
             isValid = false;
         } else {
